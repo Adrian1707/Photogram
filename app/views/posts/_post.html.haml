@@ -27,3 +27,4 @@
       .comment-form.col-sm-11
         = form_for [post, post.comments.new] do |f|
           = f.text_field :content, placeholder: 'Add a comment...'
+          = f.button :submit, class: 'btn-success'
