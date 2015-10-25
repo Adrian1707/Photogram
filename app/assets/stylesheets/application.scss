@@ -164,7 +164,7 @@ body {
 .registration-bg {
   padding-top: 4em;
   height: 100%;
-  background-image: image-url('regbackg.jpg');
+  background-image: image-url('sky.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -190,6 +190,14 @@ body {
 
 .panel {
   border-radius: 8px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 0px;
 }
 
 .panel-heading{
@@ -281,6 +289,5 @@ body {
 }
 
 #user_avatar {
-  padding: 1em;
-  margin: 0px auto;
+  margin: 20px auto;
 }
